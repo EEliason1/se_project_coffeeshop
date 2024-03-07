@@ -10,7 +10,6 @@
 .recipes__title {
   max-width: 580px;
   color: #fff;
-  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -35,6 +34,9 @@
   display: flex;
   gap: 40px;
   justify-content: center;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 .recipes__iframe {
@@ -49,7 +51,6 @@
 
 .recipes__video-caption {
   color: #fff;
-  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
